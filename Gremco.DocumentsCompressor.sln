@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gremco.DocumentsCompressor", "src\Gremco.DocumentsCompressor\Gremco.DocumentsCompressor.csproj", "{A51BF6DA-C7C9-4A70-954F-BBEBD56C63ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{9B3F05CE-BD53-4A7C-8BEE-3C91DEA44C27}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitlab-ci.yml = .gitlab-ci.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7AB557C1-6EC6-4661-96DF-A88CDBBE1DE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51BF6DA-C7C9-4A70-954F-BBEBD56C63ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51BF6DA-C7C9-4A70-954F-BBEBD56C63ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51BF6DA-C7C9-4A70-954F-BBEBD56C63ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51BF6DA-C7C9-4A70-954F-BBEBD56C63ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A51BF6DA-C7C9-4A70-954F-BBEBD56C63ED} = {7AB557C1-6EC6-4661-96DF-A88CDBBE1DE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C085431C-AEA8-4B2A-BBCD-B65F6385D6CF}
+	EndGlobalSection
+EndGlobal
